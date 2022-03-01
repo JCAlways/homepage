@@ -57,6 +57,7 @@ const list = reactive([
   justify-content: center;
 
   .el-link {
+    text-align: center;
     margin: 0 6px;
     font-size: 12px;
   }

@@ -51,7 +51,7 @@
   <el-dialog
     v-model="state.Visible"
     title="设置"
-    width="500px"
+    width="375px"
     :before-close="closeSteeingBox"
     :close-on-click-modal="false"
   >

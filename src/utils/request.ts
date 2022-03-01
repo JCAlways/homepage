@@ -6,6 +6,7 @@ import axios, {
 import config from "./config";
 const instance = axios.create({
   baseURL: config.baseUrl,
+  withCredentials: true,
   timeout: 10000,
 });
 instance.interceptors.request.use(
