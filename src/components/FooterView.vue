@@ -31,16 +31,16 @@ const list = reactive([
     title: "©2022 JCAlways",
   },
   {
+    title: "站长统计",
+    url: "https://uweb.umeng.com/v1/login.php?siteid=1279679621",
+  },
+  {
     title: "京ICP备19044601号",
     url: "https://beian.miit.gov.cn/",
   },
   {
     title: "京公网安备 11011302001809号",
     url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11011302001809",
-  },
-  {
-    title: "站长统计",
-    url: "https://uweb.umeng.com/v1/login.php?siteid=1279679621",
   },
 ]);
 </script>
@@ -50,9 +50,10 @@ const list = reactive([
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 40px;
+  min-height: 40px;
   background-color: #fff;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 

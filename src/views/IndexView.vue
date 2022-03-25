@@ -91,7 +91,6 @@ import {
   type ComponentInternalInstance,
 } from "vue";
 import { ElMessage, ElNotification } from "element-plus";
-import { ArrowDown } from "@element-plus/icons-vue";
 import FooterView from "@/components/FooterView.vue";
 import { useCounterStore } from "@/stores/counter";
 const currentInstance = getCurrentInstance() as ComponentInternalInstance;
